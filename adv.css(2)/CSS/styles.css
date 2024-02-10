@@ -1,0 +1,103 @@
+body{
+    background-color: cornflowerblue;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100;
+}
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#container{
+    background-color: aliceblue;
+    width:95%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: black;
+}
+
+nav{
+    background-color:darkslategrey;
+    text-align:center;
+    padding: 5px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 85;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+color: cornsilk;
+margin-left: 30px;
+text-decoration: none;
+font-size: 30px;
+font-weight: bold;
+}
+
+nav li a:hover{
+    color: chartreuse;
+}
+
+header h1{
+    font-size: 75px;
+    color: black;
+    text-shadow: 2px 2px 2px black; 
+}
+
+main{
+    padding: 20px;
+}
+
+main img{
+   width: 50%; 
+}
+
+#lower{
+    display: flex;
+}
+
+.col{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black ; 
+    width: 33.33%;
+    border-radius: 10px;
+}
+
+.col img{
+    border-radius: 20px;
+}
+
+footer{
+    padding: 40px 0;
+    text-align: center;
+}
+
+hr{
+    width: 75%;
+}
+
+#xpacs{
+    display: flex;
+}
+
+.xpaccover img{
+    width: 80%;
+}
